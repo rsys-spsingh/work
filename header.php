@@ -39,7 +39,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <nav class="main-nav">
             <ul>
                 <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="<?php echo get_permalink(get_page_by_path('contact')); ?>">Contact Us</a></li>
+
                 <li class="dropdown">
                     <a href="#programs">Programs</a>
                     <div class="dropdown-content">
